@@ -1,0 +1,154 @@
+body{
+    height: 100vh;
+	background-image: url('https://images.pexels.com/photos/3483098/pexels-photo-3483098.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    font-size: 25px;
+    position: relative;
+}
+.container{
+    position: relative;
+    left: 50%;
+    top: 50%;
+	transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: #FFF;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.home {
+  position: relative;
+  margin-top: 25px;
+  text-align: center; 
+}
+
+a:link, a:visited {
+  background-color: #90ee90;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #808080;
+  text-align: center;
+}
+
+h1{
+    background-color: #90ee90;
+    padding: 10px;
+    font-size: 30px;
+	margin-top: 0px;
+	border-radius: 20px;
+}
+p{
+    color: #202020;
+}
+
+input{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #00FF00;
+    color: #202020;
+    font-size: 30px;
+    margin-top: 10px;
+}
+select{
+    border: none;
+    outline: none;
+    border: 1px solid #16a465;
+    color: #202020;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    width: 75%;
+}
+button#calculate{
+    color: white;
+    background: #16a465;
+    border: 1px solid transparent;
+    font-size: 20px;
+	position: relative;
+	bottom: 5px;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+    transition: all .3s ease;
+}
+button#calculate:hover{
+    color: #16a465;
+    border-color: #16a465;
+    background: white;
+}
+.totalTip{
+    background-color: #90ee90;
+    border-radius: 20px;
+    padding: 15px 0 30px;
+}
+p.tip{
+    font-size: 40px;
+    color: #202020;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+  position: relative;
+  text-align: center;
+  padding: 0%;
+  
+  }
+  .container {
+	position: relative;
+    background-color: lightblue;
+	width: 200px;
+	margin-top: -50px;
+	
+  }
+  input {
+	  position: relative;
+	  width: 100px;
+  }
+  h1{
+    background-color: #90ee90;
+    font-size: 15px;
+	margin-top: 5px;
+	border-radius: 20px;
+}
+
+select{
+    font-size: 10px;
+    padding: 5px 15px;
+    width: 75%;
+}
+button#calculate{
+    font-size: 10px;
+	position: relative;
+	bottom: 5px;
+    border-radius: 25px;
+    padding: 15px 30px;
+	margin-bottom: 0px;
+    transition: all .3s ease;
+}
+p{
+	font-size: 15px;
+}
+
+.totalTip{
+    background-color: #90ee90;
+    border-radius: 10px;
+    padding: 15px 0 30px;
+}
+p.tip{
+    font-size: 20px;
+    color: #202020;
+    margin-top: 10px;
+}
+  
+}
+	
+	

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tipStyle.css">
+</head>
+<body>
+<!-- HOME -->
+<div class="home">
+  <a href="file:///C:/Users/Steven%20Le/Desktop/whatToEat.html"><strong>Home</strong></a>  
+</div>
+    <div class="container">
+		<h1>Tip Calculator</h1>
+		<!-- Creating the tip calculator -->
+        <form action="">
+            <div class="control">
+                <p>Enter Total Bill</p>
+                <p class="input">
+                    $
+                    <input type="number" name="" id="totalBill" placeholder="00">
+                </p>
+            </div>
+            <div class="control">
+                <p>Select Tip Percent</p>
+                <select name="" id="tipPercent">
+                    <option disabled selected value="0">Choose an Option</option>
+                    <option value="0.3">30% - above and beyond</option>
+                    <option value="0.2">20% - excellent</option>
+                    <option value="0.15">15% - good</option>
+                    <option value="0.1">10% - okay</option>
+                    <option value="0.05">5% - terrible</option>
+                </select>
+            </div>
+        </form>
+		<!-- Ask for the number of people splitting the bill -->
+        <p>Number of people splitting the Bill?</p>
+        <input type="number" name="" id="split" placeholder="0"> 
+		
+		<!-- Calculate the total amount per person -->
+        <button id="calculate">Calculate</button> 
+        <div class="totalTip">
+            <p>Total Per Person</p>
+            <p class="tip">$ <span id="tip">0.00</span> </p>
+        </div>
+    </div>
+	
+	<!-- Add javaScript -->
+    <script src="tipScript.js"></script>
+</body>
+</html>
